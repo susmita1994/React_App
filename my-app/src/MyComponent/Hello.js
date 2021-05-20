@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function Hello(props){
 
@@ -8,8 +9,7 @@ function Hello(props){
 
     return (
         <div>
-            <button onClick={DoThis.bind(this,"Hello i am fun para")}>Click Me</button>
-
+            <button className="btn btn-info" onClick={DoThis.bind(this,"Hello i am fun para")}>Click Me</button>
             <h1>Hello {props.name}</h1>
         </div>
     );
