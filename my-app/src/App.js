@@ -7,11 +7,11 @@ import Welcome from './MyComponent/Welcome';
 function App() {
   return (
     <div className="App">
-      <Hello name="Susmita"></Hello>
-      <Hello name="Priyanka"></Hello>
-      <Hello name="piku"></Hello>
-      <Hello name="Soma"></Hello>
-      <Welcome></Welcome>
+    
+      <Welcome name="Class 1"></Welcome>
+      <Welcome name="Class 2"></Welcome>
+      <Welcome name="Class 3"></Welcome>
+      <Welcome name="Class 4"></Welcome>
     </div>
   );
 }
