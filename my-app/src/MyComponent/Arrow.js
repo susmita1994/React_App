@@ -9,9 +9,13 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 //     );
 // }
 
+const AlertMe=(a)=>{
+    alert(a);
+}
+
 const Arrow=()=>{
     return(
-        <button className="btn btn-danger">My Button</button>
+        <button onClick={AlertMe.bind(this,"I am from Arrow function")} className="btn btn-danger">My Button</button>
     );
 }
 
