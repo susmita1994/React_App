@@ -7,11 +7,9 @@ import Welcome from './MyComponent/Welcome';
 function App() {
   return (
     <div className="App">
-    
+      <Hello name="susmita"></Hello>
       <Welcome name="Class 1"></Welcome>
-      <Welcome name="Class 2"></Welcome>
-      <Welcome name="Class 3"></Welcome>
-      <Welcome name="Class 4"></Welcome>
+    
     </div>
   );
 }
