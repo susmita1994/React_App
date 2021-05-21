@@ -5,17 +5,17 @@ class Welcome extends Component{
     constructor(){
         super()
 
-        this.state={
+        var obj={
             name:"Susmita",
-            age:"26"
-
+            age:["26","30","28","45"]
         }
+        this.state=obj
     }
 
     render(){
         return <div>
             <h1>My Name Is:{this.state.name}</h1>
-            <h1>Age:{this.state.age}</h1>
+            <h1>Age:{this.state.age[1]}</h1>
         </div> 
     }
 }
