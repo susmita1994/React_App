@@ -5,6 +5,7 @@ import Hello from './MyComponent/Hello';
 import Arrow from './MyComponent/Arrow';
 import Welcome from './MyComp/Welcome';
 import Condition1 from './MyComp/Condition1';
+import Refresh from './MyComp/Refresh';
 function App() {
   return (
     <div className="App">
@@ -12,7 +13,8 @@ function App() {
       <Welcome name="Class 1"></Welcome> */}
      {/* <Arrow></Arrow> */}
      {/* <Welcome></Welcome> */}
-     <Condition1></Condition1>
+     {/* <Condition1></Condition1> */}
+     <Refresh></Refresh>
     
     </div>
   );
