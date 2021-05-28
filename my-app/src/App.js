@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Text from './MyComp/Text';
+import Select from './MyComp/Select';
 
 function App() {
   return (
     <div className="App">
-      <Text/>
+      <Select/>
     </div>
   );
 }

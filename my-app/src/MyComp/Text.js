@@ -5,7 +5,7 @@ class Text extends Component {
     constructor(){
         super();
         this.state={
-            desc:"Please insert some text",
+            
             userInput:" "
         }
     }
