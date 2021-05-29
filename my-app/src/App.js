@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
-import Select from './MyComp/Select';
+import Text from './MyComp/Text';
+import List from './MyComponent/List';
+
 
 function App() {
   return (
     <div className="App">
-      <Select/>
+     <List/>
     </div>
   );
 }
